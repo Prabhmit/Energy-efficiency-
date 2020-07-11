@@ -172,7 +172,7 @@ hist(df$X8)
 
 ################################################################################
 
-# 4. Checking Multi-Collinearity between the independent variables (rounding to 2 decimal places).
+# 4. Checking Multi-Collinearity between the independent variables (IV) (rounding to 2 decimal places).
 # X1 with X2, X4, X5 
 # X2 with X4 and X5
 # X4 with X5 
