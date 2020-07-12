@@ -8,7 +8,8 @@ The aim of this exercise is to use the eight features to predict each of the two
 
 1. Inspecting the data table and providing descriptive statistics and checking for any NA's
 
-The variables:
+The variables are:
+
 X1 	Relative Compactness
 
 X2 	Surface Area
@@ -44,24 +45,42 @@ Histogram for Y2 and its mean (24.59) which is greater than its median (22.08) i
 Correlation > 0.8 = strong relation; Correlation < 0.4 = weak relation; else moderate
 
 Y1 (Heating Load)
+
 X1: moderate positive linear relation
+
 X2: moderate negative linear relation
+
 X3: moderate positive linear relation
+
 X4: strong negative linear relation
+
 X5: strong positive linear relation
+
 X6: no linear relation
+
 X7: weak positive linear relation
+
 X8: weak positive linear relation
 
+
 Y2 (Cooling Load)
+
 X1: moderate positive linear relation
+
 X2: moderate negative linear relation
+
 X3: moderate positive linear relation
+
 X4: strong negative linear relation
+
 X5: strong positive linear relation
+
 X6: no linear relation
+
 X7: weak positive linear relation
+
 X8: weak positive linear relation
+
 
 The distribution for all independent variables is uniform except X3 and X4 which appear to be normal and left skewed respectively.
 
@@ -78,8 +97,11 @@ X4, X5 (-0.97)
 Both variables have strong correlation and appear to be opposite of each other. X5 appears to have marginally stronger correlation with Y1 and Y2 than X4. Therefore, dropping X4.
 
 X1, X4 (-0.87)
+
 X1, X5 (0.83)
+
 X2, X4 (0.88)
+
 X2, X5 (-0.86)
 
 After removing X1 and X4, collinearity between X2 and X5 as inspected. X5 appears to have stronger correlation with Y1 and Y2 than X2. Therefore, dropping X2.
