@@ -6,6 +6,7 @@ The dataset contains eight attributes (or features, denoted by X1...X8) and two 
 
 The aim of this exercise is to use the eight features to predict each of the two responses (768 samples and 8 features).
 
+
 1. Inspecting the data table and providing descriptive statistics and checking for any NA's
 
 The variables are:
@@ -34,11 +35,13 @@ Attribute characteristics: Numeric (double)
 Count (sample size): 768
 No NA’s identified.
 
+
 2. Describing Y1 (Heating Load) and Y2 (Cooling Load)
 
 Histogram for Y1 and its mean (22.31) which is greater than its median (18.95) indicates its distribution is right skewed. Application of Empirical rule indicates no outliers. Its maximum and minimum values are 6.01 and 43.10 respectively.
 
 Histogram for Y2 and its mean (24.59) which is greater than its median (22.08) indicates its distribution is right skewed. Application of Empirical rule indicates no outliers. Its maximum and minimum values are 10.90 and 48.03 respectively.
+
 
 3. Inspecting correlation between the independent variables and dependent variables (Y1 and Y2) and multi-collinearity between the independent variables.
 
@@ -84,6 +87,7 @@ X8: weak positive linear relation
 
 The distribution for all independent variables is uniform except X3 and X4 which appear to be normal and left skewed respectively.
 
+
 4. Inspecting collinearity
 
 The following variables have collinearity (in descending order). Dealing with pairs with highest collinearity:
@@ -106,7 +110,9 @@ X2, X5 (-0.86)
 
 After removing X1 and X4, collinearity between X2 and X5 as inspected. X5 appears to have stronger correlation with Y1 and Y2 than X2. Therefore, dropping X2.
 
+
 5. Splitting dataset into training (80%) and testing sets (20%)
+
 
 6. Building model for Y1 - Heating Load
 
@@ -121,6 +127,7 @@ The residual plot indicates constant spread across the horizontal axis with no c
 Making predictions and checking RMSE, error rate and R-square to check the model's performance
 
 RMSE is 3.32 representing an error rate of 14.2%. R-square is 0.89, which means the observations and predicted values are highly correlated. Residual standard error of the model is 2.94, which means the actual Y1 values in the model deviate from the true regression line by approximately 2.94 units.
+
 
 7. Building model for Y2 – Cooling Load
 
