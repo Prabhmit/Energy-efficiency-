@@ -1,5 +1,5 @@
 
-# Loading packages, importing the file in R, viewing and inspecting it
+# Loading packages, importing the file in R studio, viewing and inspecting it
 
 library(tidyverse)
 library(readxl)
@@ -23,7 +23,7 @@ sum(is.na(df))
 
 summary(df$Y1)   
 sd(df$Y1)
-mean(df$Y1) + 3*sd(df$Y1)    # Checking for any outliers using Empirical rule
+mean(df$Y1) + 3*sd(df$Y1)    # Inspecting any outliers using Empirical rule
 mean(df$Y1) - 3*sd(df$Y1)
 
 
@@ -43,7 +43,7 @@ ggplot(data = df) +
 
 summary(df$Y2)
 sd(df$Y2)
-mean(df$Y2) + 3*sd(df$Y2)    # Checking for any outliers using Empirical rule
+mean(df$Y2) + 3*sd(df$Y2)    # Inspecting any outliers using Empirical rule
 mean(df$Y2) - 3*sd(df$Y2)
 
 
@@ -159,7 +159,8 @@ ggplot(df, aes(x = X8, y = Y2)) +
 
 
 
-# To view IV distributions
+# To view independent variable distributions
+
 par(mfrow = c(3,3))
 hist(df$X1)
 hist(df$X2)
