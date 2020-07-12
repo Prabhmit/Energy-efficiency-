@@ -10,14 +10,23 @@ The aim of this exercise is to use the eight features to predict each of the two
 
 The variables:
 X1 	Relative Compactness
+
 X2 	Surface Area
+
 X3 	Wall Area
+
 X4 	Roof Area
+
 X5 	Overall Height
+
 X6 	Orientation
+
 X7 	Glazing Area
+
 X8 	Glazing Area Distribution
+
 Y1 	Heating Load
+
 Y2 	Cooling Load
 
 Attribute characteristics: Numeric (double)
