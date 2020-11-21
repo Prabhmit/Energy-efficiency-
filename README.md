@@ -80,7 +80,7 @@ X8: weak positive linear relation
 
 The distribution for all independent variables is uniform except X3 and X4 which appear to be normal and left skewed respectively.
 
-4. Inspecting collinearity
+## Inspecting collinearity
 
 The following variables have collinearity (in descending order). Dealing with pairs with highest collinearity:
 
