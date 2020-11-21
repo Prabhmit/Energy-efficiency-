@@ -1,40 +1,50 @@
-Energy efficiency Data Set - UCI - Machine Learning Repository
+# Table of Contents
 
-The dataset is accessible from UCI - Machine Learning Repository. Copy of data set and its description are at https://archive.ics.uci.edu/ml/datasets/Energy+efficiency  
+1. Installations and package requirement
+2. Project Motivation
+3. File Descriptions
+4. Analysis
+5. Results
+6. Licensing, Authors and Acknowledgments
 
-The dataset contains eight attributes (or features, denoted by X1...X8) and two responses (or outcomes, denoted by Y1 and Y2). 
+# Installations and package requirement
 
-The aim of this exercise is to use the eight features to predict each of the two responses (768 samples and 8 features).
+The code is in R. The additional libraries that have been used are tidyverse and readxl.
 
+# Project Motivation
+
+The dataset contains eight numerical features, denoted by X1...X8 and two targets denoted by Y1 and Y2. 
+The aim of this exercise is to use the eight features to predict each of the two responses using Multiple Linear Regression. 
+The dataset has 768 observations and 8 features.
+
+# File Descriptions
+
+The dataset is contained in a Microsoft Excel Worksheet. It can be accessed from:
+Energy efficiency Data Set, UCI - Machine Learning Repository <https://archive.ics.uci.edu/ml/datasets/Energy+efficiency>
+
+# Analysis
 
 1. Inspecting the data table and providing descriptive statistics and checking for any NA's
 
-The variables are:
+The eight feature are:
 
 X1 	Relative Compactness
-
 X2 	Surface Area
-
 X3 	Wall Area
-
 X4 	Roof Area
-
 X5 	Overall Height
-
 X6 	Orientation
-
 X7 	Glazing Area
-
 X8 	Glazing Area Distribution
 
-Y1 	Heating Load
+The two targets are:
 
+## Y1 	Heating Load
 Y2 	Cooling Load
 
 Attribute characteristics: Numeric (double)
 Count (sample size): 768
 No NA’s identified.
-
 
 2. Describing Y1 (Heating Load) and Y2 (Cooling Load)
 
@@ -111,8 +121,9 @@ X2, X5 (-0.86)
 After removing X1 and X4, collinearity between X2 and X5 as inspected. X5 appears to have stronger correlation with Y1 and Y2 than X2. Therefore, dropping X2.
 
 
-5. Splitting dataset into training (80%) and testing sets (20%)
+# Results
 
+5. Splitting dataset into training (80%) and testing sets (20%)
 
 6. Building model for Y1 - Heating Load
 
@@ -143,14 +154,20 @@ Making predictions and checking RMSE, error rate and R-square to check the model
 
 RMSE is 3.66 representing an error rate of 14.3%. R-square is 0.85, which means the observations and predicted values are highly correlated. Residual standard error of the model is 3.22, which means the actual Y1 values in the model deviate from the true regression line by approximately 3.22 units.
 
-
-Citation: 
+# Licensing, Authors and Acknowledgments
+Energy efficiency Data Set, UCI - Machine Learning Repository <https://archive.ics.uci.edu/ml/datasets/Energy+efficiency>
 
 James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani. 2014. An Introduction to Statistical Learning: With Applications in R. Springer Publishing Company, Incorporated.
 
 A. Tsanas, A. Xifara: 'Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools', Energy and Buildings, Vol. 49, pp. 560-567, 2012
 
 A. Tsanas, 'Accurate telemonitoring of Parkinsonâ€™s disease symptom severity using nonlinear speech signal processing and statistical machine learning', D.Phil. thesis, University of Oxford, 2012 (which can be accessed from [Web Link])
+
+
+
+
+
+
 
 
 
