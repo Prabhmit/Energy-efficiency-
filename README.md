@@ -19,7 +19,7 @@ The dataset has 768 observations and 8 features.
 
 # File Descriptions
 
-The dataset is contained in a Microsoft Excel Worksheet. It can be accessed from:
+The dataset is contained in a Microsoft Excel Worksheet named 'ENB2012_data'. It can also be accessed from:
 Energy efficiency Data Set, UCI - Machine Learning Repository <https://archive.ics.uci.edu/ml/datasets/Energy+efficiency>
 
 # Analysis
