@@ -9,13 +9,12 @@
 
 # Installations and package requirement
 
-The code is in R. The additional libraries that have been used are tidyverse and readxl.
+The code is in R. The additional libraries that have been used are tidyverse, readxl and caret.
 
 # Project Motivation
 
-The dataset contains eight numerical features, denoted by X1...X8 and two targets denoted by Y1 and Y2. 
-The aim of this exercise is to use the eight features to predict each of the two responses using Multiple Linear Regression. 
-The dataset has 768 observations and 8 features.
+The dataset contains eight numerical features, denoted by X1...X8 and two targets denoted by Y1 and Y2. The dataset has 768 observations. 
+The aim of this exercise is to use the eight features to build Multiple Linear Regression models to predict each of the two responses. 
 
 # File Descriptions
 
@@ -100,7 +99,6 @@ X2, X5 (-0.86)
 
 After removing X1 and X4, collinearity between X2 and X5 as inspected. X5 appears to have stronger correlation with Y1 and Y2 than X2. Therefore X2 has been dropped.
 
-
 # Results
 
 ## Building model for Y1 - Heating Load
@@ -122,7 +120,7 @@ RMSE is 3.32 representing an error rate of 14.2%. R-square is 0.89, which means 
 
 After three iterations (dropping X6 and X8), the significant variables are X3, X5 and X7. The model is overall statistically significant at 5% significance (p-value < 0.05) and the independent variables are individually statistically significant at 5% significance (p-value < 0.05). R-square is 0.88 which means approximately 88% of variation in Y2 can be explained by the variation in all the independent variables.
 
-The final model for predicting Y2 is::  Y2 = -15.84 + 0.04 * X3 + 4.6 * X5 + 14.8 * X7 
+The final model for predicting Y2 is:  Y2 = -15.84 + 0.04 * X3 + 4.6 * X5 + 14.8 * X7 
 
 ## Residual Analysis
 
@@ -139,4 +137,4 @@ James, Gareth, Daniela Witten, Trevor Hastie, and Robert Tibshirani. 2014. An In
 
 A. Tsanas, A. Xifara: 'Accurate quantitative estimation of energy performance of residential buildings using statistical machine learning tools', Energy and Buildings, Vol. 49, pp. 560-567, 2012
 
-A. Tsanas, 'Accurate telemonitoring of Parkinsonâ€™s disease symptom severity using nonlinear speech signal processing and statistical machine learning', D.Phil. thesis, University of Oxford, 2012 (which can be accessed from [Web Link])
+A. Tsanas, 'Accurate telemonitoring of Parkinsons disease symptom severity using nonlinear speech signal processing and statistical machine learning', D.Phil. thesis, University of Oxford, 2012 (which can be accessed from [Web Link])
