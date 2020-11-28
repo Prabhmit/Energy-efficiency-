@@ -27,23 +27,23 @@ Energy efficiency Data Set, UCI - Machine Learning Repository <https://archive.i
 
 The eight feature are:
 
-X1 	Relative Compactness
-X2 	Surface Area
-X3 	Wall Area
-X4 	Roof Area
-X5 	Overall Height
-X6 	Orientation
-X7 	Glazing Area
-X8 	Glazing Area Distribution
+X1 	Relative Compactness <br>
+X2 	Surface Area <br>
+X3 	Wall Area <br>
+X4 	Roof Area <br>
+X5 	Overall Height <br>
+X6 	Orientation <br>
+X7 	Glazing Area <br>
+X8 	Glazing Area Distribution <br>
 
 The two targets are:
 
-Y1 	Heating Load
-Y2 	Cooling Load
+Y1 	Heating Load <br>
+Y2 	Cooling Load <br>
 
 Attribute characteristics: Numeric (double)
-Count (sample size): 768
-No NA’s identified.
+Count (sample size): 768 <br>
+No NA/null values or duplicate rows were identified. 
 
 ## Describing Y1 (Heating Load) and Y2 (Cooling Load)
 
@@ -57,25 +57,25 @@ The following criterion has been applied to measure correlation and collinearity
 
 Y1 (Heating Load)
 
-X1: moderate positive linear relation
-X2: moderate negative linear relation
-X3: moderate positive linear relation
-X4: strong negative linear relation
-X5: strong positive linear relation
-X6: no linear relation
-X7: weak positive linear relation
-X8: weak positive linear relation
+X1: moderate positive linear relation <br>
+X2: moderate negative linear relation <br>
+X3: moderate positive linear relation <br>
+X4: strong negative linear relation <br>
+X5: strong positive linear relation <br>
+X6: no linear relation <br>
+X7: weak positive linear relation <br>
+X8: weak positive linear relation <br>
 
 Y2 (Cooling Load)
 
-X1: moderate positive linear relation
-X2: moderate negative linear relation
-X3: moderate positive linear relation
-X4: strong negative linear relation
-X5: strong positive linear relation
-X6: no linear relation
-X7: weak positive linear relation
-X8: weak positive linear relation
+X1: moderate positive linear relation <br>
+X2: moderate negative linear relation <br>
+X3: moderate positive linear relation <br>
+X4: strong negative linear relation <br>
+X5: strong positive linear relation <br>
+X6: no linear relation <br>
+X7: weak positive linear relation <br>
+X8: weak positive linear relation <br>
 
 The distribution for all independent variables is uniform except X3 and X4 which appear to be normal and left skewed respectively.
 
