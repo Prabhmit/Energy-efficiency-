@@ -18,7 +18,7 @@ The aim of this exercise is to use the eight features to build Multiple Linear R
 
 # File Descriptions
 
-The dataset is contained in a Microsoft Excel Worksheet named 'ENB2012_data'. It can also be accessed from:
+The dataset is contained in a Microsoft Excel Worksheet named 'ENB2012_data'. It can also be accessed from
 Energy efficiency Data Set, UCI - Machine Learning Repository [here.](<https://archive.ics.uci.edu/ml/datasets/Energy+efficiency>)
 
 # Analysis
