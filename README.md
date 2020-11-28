@@ -49,7 +49,7 @@ No NA/null values or duplicate rows were identified.
 
 Histogram for Y1 and its mean (22.31) which is greater than its median (18.95) indicates its distribution is right skewed. Application of Empirical rule indicates no outliers. Its maximum and minimum values are 6.01 and 43.10 respectively.
 
-Histogram for Y2 and its mean (24.59) which is greater than its median (22.08) indicates its distribution is right skewed. Application of Empirical rule indicates no outliers. Its maximum and minimum values are 10.90 and 48.03 respectively.
+Histogram for Y2 and its mean (24.59) which is greater than its median (22.08) indicates its distribution is right skewed. Application of Empirical rule indicates no outliers. Its maximum and minimum values are 10.90 and 48.03 respectively. Box plots for Heating and Cooling loads were also view to inspect their distributions.
 
 ## Inspecting correlation between the independent variables and dependent variables (Y1 and Y2) and multi-collinearity between the independent variables.
 
