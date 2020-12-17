@@ -320,7 +320,7 @@ R2(pred_m2,test_df1$Cooling_Load)
 RMSE(pred_m2,test_df1$Cooling_Load)
 RMSE(pred_m2,test_df1$Cooling_Load)/mean(test_df1$Cooling_Load)
 
-# R2 is 0.85, which means the observes and predicted values are highly correlated
+# R2 is 0.85, which means the observed and predicted values are highly correlated
 # RMSE is 3.66 , representing an error rate of 14.3%
 # Significant var. are wall area, overall height and glazing area.
 
